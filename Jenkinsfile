@@ -24,7 +24,7 @@ pipeline {
 
         stage('Automated HTML Tests') {
             steps {
-                bat 'python -m unittest -v test_form.py'
+                bat '"C:\\Users\\abhin\\AppData\\Local\\Programs\\Python\\Python313\\python.exe" -m unittest -v test_form.py'
             }
         }
     }
